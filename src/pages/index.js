@@ -125,19 +125,16 @@ const Flickk = styled.div`
 
 const StyledContainer = styled.div`
   min-height: 100vh;
-
   width: 60%;
   margin: 0 auto;
   padding: 0 0.5rem 4rem 0.5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  // align-items: start;
   position: relative;
   color: #fff;
   line-height: 1.2;
   max-width: 1000px;
-  // font-size: 2.2rem;
 
   @media (max-width: ${sizes.desktop}px) {
     width: 75%;
